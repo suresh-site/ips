@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif,'mukta','lobster';
+}
+html{
+    font-size :100%
+}
+
+.header {
+   background: linear-gradient(156.82deg,rgba(4,2,67,1),rgba(4,2,67,0.5)),url(./image/mainbgss.jpeg) center center / cover;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.header img {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+    width: 11rem;
+}
+
+.navbar {
+    min-width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftitems ul,.rightitems ul {
+    display: flex;
+    list-style: none;
+}
+
+.leftitems ul li , .rightitems ul li{
+    padding: 0 1rem;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.5s;
+}
+a:hover {
+    color: #d3cbc0;
+}
+.main {
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.main h1{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.main p{
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: #fff;
+    transition: all 0.5s ease;
+    font-weight: 500;
+}
+
+.main p:hover {
+    border: 2px solid white;
+    background: aqua;
+    color: #00276c;
+}
+.faculty {
+    height: auto;
+    background-color: #092854;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faculty_title {
+    padding: 20px 20px 0;
+    color: #d3cbc0;
+    font-size: 1.2rem;
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+.list {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 15px;;
+    padding: 50px 10px 50px;
+}
+.list_items-1 {
+    position: relative;
+    background: url(./image/umesh.jpeg) no-repeat center center / cover;
+    width:200px;
+    height: 250px;
+    border-radius: 5px;
+}
+.list_items-2 {
+    position: relative;
+    background: url(./image/shubham.jpg) no-repeat center center / cover;
+    width:200px;
+    height: 250px;
+    border-radius: 5px;
+}
+.list_items-3 {
+    position: relative;
+    background: url(./image/pravind.jpeg) no-repeat center center / cover;
+    width:200px;
+    height: 250px;
+    border-radius: 5px;
+}
+.list_items-4 {
+    position: relative;
+    background: url(./image/arvind.jpeg) no-repeat center center / cover;
+    width:200px;
+    height: 250px;
+    border-radius: 5px;
+}
+.list_items-5 {
+    position: relative;
+    background: url(./image/mandeep.jpeg) no-repeat center center / cover;
+    width:200px;
+    height: 250px;
+    border-radius: 5px;
+}
+.list_items-6 {
+    position: relative;
+    background: url(./image/madam.jpeg) no-repeat center center / cover;
+    width:200px;
+    height: 250px;
+    border-radius: 5px;
+}
+.text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    text-shadow: 3px 3px 6px #08141f;
+
+}
+.about {
+    background-color: #092854;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about_title {
+    color: #d3cbc0;
+    padding: 20px 20px 0px;
+    font-size: 1.2rem;
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+.about_text {
+    color: #d7cebd;
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'mukta';
+    font-size: 1.2rem;
+    padding: 30px 50px 50px;
+}
+.info {
+    background-color:#d3d2cd;
+}
+.info_ele {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap : 20px;
+    padding: 30px 40px 30px;
+    text-align: center;
+    color: #00276c;
+}
+.info_ele .bx {
+    font-size: 3rem;
+}
+.info_ele-1 p {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.info_ele-2 p {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.info_ele-3 p {
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.pm {
+    background-color: #092854;
+    color: #d3cbc0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pm_title {
+    padding: 20px 0;
+    font-size: 1.2rem;
+}
+.pm_info {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    padding: 10px 0px 50px 90px;
+
+}
+.pm_image {
+    position: relative;
+    background: url(./image/pmimage.jpeg) no-repeat center center / cover;
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+.pm_text {
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+.pm_text1 {
+    position: absolute;
+    color: #092854;
+    bottom: 10px;
+    left: 10px;
+
+}
+.mission {
+    background-color: #00276c;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+}
+.mission_text {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    color: #d3cbc0;
+    padding: 30px 50px;
+    
+}
+.mission_text h3{
+    display: inline-block;
+    border-bottom: 2px solid white;
+}
+.mission_text p {
+    font-size: 1.1rem;
+    padding-top: 10px;
+    line-height: 1.7;
+}
+.imageslide {
+    width: 100%;
+    height: 75vh;
+    background: #d7cebd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper {
+    width: 100%;
+    height: fit-content;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 75vh;
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: #fff;
+}
+.swiper .swiper-pagination-bullet-active {
+    background: #fff;
+}
+.footer {
+    background-color: #d3d2cd;
+    color: #00276c;
+    font-size: 1.2rem;
+    font-weight: 700;
+    min-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+
+}
+.devsec {
+    background-color: #00276c;
+}
+.devsec_text {
+    line-height: 1.7;
+    padding: 20px 0;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+}
+.devsec_text i {
+    font-family: 'mukta';
+    color: aqua;
+    font-size: 1.7rem;
+}
+@media (max-width:1024px){
+    .list {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .pm_text {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+    .pm_info {
+        padding: 10px 30px 50px 50px;
+    
+    }   
+}
+@media (max-width:768px){
+    .list {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .pm_info {
+        padding: 10px 50px 50px 50px;
+    
+    }    
+}
+@media (max-width:750px) {
+    .navbar{
+        display: none;
+    }
+    .main h1{
+        font-size: 2.2rem;
+    }
+    .list {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .pm_info {
+        grid-template-columns: 1fr;  
+    
+    }
+    .mission_text {
+        grid-template-columns: 1fr;
+    }
+       
+}
+@media (max-width:650px) {
+
+    .list {
+       grid-template-columns: repeat(2,1fr);
+    }
+
+}
+@media (max-width:550px){
+    .list {
+        grid-template-columns: 1fr;
+    }
+    .list_items-1 {
+        position: relative;
+        background: url(./image/umeshs.jpg) no-repeat center center / cover;
+        width: 340px;
+        border-radius: 10px;
+    }
+    .list_items-2 {
+        position: relative;
+        background: url(./image/shubhams.jpg) no-repeat center center / cover;
+        width: 340px;
+        border-radius: 10px;
+    }
+    .list_items-3 {
+        position: relative;
+        background: url(./image/pravinds.jpeg) no-repeat center center / cover;
+        width: 340px;
+        border-radius: 10px;
+    }
+    .list_items-4 {
+        position: relative;
+        background: url(./image/arvinds.jpg) no-repeat center center / cover;
+        width: 340px;
+        border-radius: 10px;
+    }
+    .list_items-5 {
+        position: relative;
+        background: url(./image/mandeeps.jpg) no-repeat center center / cover;
+        width: 340px;
+        border-radius: 10px;
+    }
+    .list_items-6 {
+        position: relative;
+        background: url(./image/madam.jpeg) no-repeat center center / cover;
+        width: 340px;
+        border-radius: 10px;
+    }
+    
+    .footer {
+        flex-direction: column;
+        }   
+}
+@media (max-width:360px){
+    .list_items-1 {
+        position: relative;
+        background: url(./image/umesh.jpeg) no-repeat center center / cover;
+        width:200px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .list_items-2 {
+        position: relative;
+        background: url(./image/shubham.jpg) no-repeat center center / cover;
+        width:200px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .list_items-3 {
+        position: relative;
+        background: url(./image/pravind.jpeg) no-repeat center center / cover;
+        width:200px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .list_items-4 {
+        position: relative;
+        background: url(./image/arvind.jpeg) no-repeat center center / cover;
+        width:200px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .list_items-5 {
+        position: relative;
+        background: url(./image/mandeep.jpeg) no-repeat center center / cover;
+        width:200px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .list_items-6 {
+        position: relative;
+        background: url(./image/madam.jpeg) no-repeat center center / cover;
+        width:200px;
+        height: 250px;
+        border-radius: 5px;
+    }
+}
+@media (max-width:300px){
+.info_ele-1 p {
+    font-size: 1.1rem;
+}
+.info_ele-2 p {
+    font-size: 1.1rem;
+} 
+.info_ele-3 p {
+    font-size: 1.1rem;
+}  
+}
