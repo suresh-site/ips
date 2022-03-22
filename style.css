@@ -359,6 +359,12 @@ a:hover {
     }
 
 }
+@media (max-height:550px) {
+    .main h1{
+        font-size: 2rem;
+        margin-top: 75px;
+    }
+}
 @media (max-width:550px){
     .list {
         grid-template-columns: 1fr;
@@ -403,6 +409,23 @@ a:hover {
     .footer {
         flex-direction: column;
         }   
+}
+@media (max-height:360px){
+    .header img {
+        width: 8rem;
+    }
+    .main h1{
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+    .main p{
+        
+        margin-top: 5px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
 }
 @media (max-width:360px){
     .list_items-1 {
